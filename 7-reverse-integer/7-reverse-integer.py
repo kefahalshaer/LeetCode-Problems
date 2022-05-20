@@ -11,3 +11,5 @@ class Solution:
                 revst = '-' + temp2
             if int(revst) >= 2**31-1 or  int(revst) <= -2**31: return 0
             else: return int(revst)
+# x = '123'
+# print(x[::-1])
