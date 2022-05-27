@@ -6,6 +6,3 @@ class Solution:
         l3 = [i for i in str(n1)]
         return [int(i) for i in l3]
     
-#         num = int(''.join(str(i) for i in digits))
-#         num += 1
-#         return [int(s) for s in list(str(num))]
