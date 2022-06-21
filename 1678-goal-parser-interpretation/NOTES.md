@@ -1,0 +1,1 @@
+# You need to check at most 2 characters to determine which character comes next.
