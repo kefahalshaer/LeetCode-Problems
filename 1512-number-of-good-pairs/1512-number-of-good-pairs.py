@@ -6,6 +6,6 @@ class Solution:
             for j in range(i+1,l):
                 if nums[i] == nums[j]:
                     count += 1
-                else: continue
+                # else: continue
         return count
         
