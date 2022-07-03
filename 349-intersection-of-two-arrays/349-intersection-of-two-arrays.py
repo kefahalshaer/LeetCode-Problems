@@ -9,7 +9,7 @@ class Solution:
         for i in nums2:
             l,r = 0,len(nums1)-1
             while l <=r:
-                m = (l+r)>>1
+                m = (l+r) // 2
                 if nums1[m] == i:
                     res.append(i)
                     break
